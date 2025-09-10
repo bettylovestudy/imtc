@@ -1,4 +1,4 @@
-% 定义分组硬阈值算子H_{G_i} (3.5)
+% 分组硬阈值算子H_{G_i} (与之前相同)
 function x = H_group_operator(z, beta)
     if norm(z) > beta
         x = z;
